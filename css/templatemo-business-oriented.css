@@ -11,7 +11,7 @@ body {
   font-size: 18px;
   overflow-x: hidden;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   body {
     overflow-x: hidden;
   }
@@ -68,7 +68,7 @@ p {
   padding: 50px 40px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .tm-logo {
     left: 50%;
     margin-left: -200px;
