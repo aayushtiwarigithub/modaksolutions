@@ -6,15 +6,13 @@ https://templatemo.com/tm-549-business-oriented
 
 */
 
-html,
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 18px;
   overflow-x: hidden;
 }
 @media (max-width: 600px) {
-  html,
-  body {
+  zbody {
     overflow-x: hidden;
   }
 }
@@ -74,7 +72,6 @@ p {
   .tm-logo {
     left: 50%;
     margin-left: -200px;
-    display: none;
   }
 }
 
