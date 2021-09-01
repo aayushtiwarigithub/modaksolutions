@@ -6,13 +6,18 @@ https://templatemo.com/tm-549-business-oriented
 
 */
 
+html,
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 18px;
   overflow-x: hidden;
 }
 @media (max-width: 600px) {
+  html,
   body {
+    overflow-x: hidden;
+  }
+  * {
     overflow-x: hidden;
   }
 }
