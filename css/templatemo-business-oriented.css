@@ -50,7 +50,7 @@ p {
   color: #9c9d9e;
   width: 120px;
   height: 50px;
-  padding: 33px 0px;
+  padding: 37px 0px;
 }
 
 @media (max-width: 500px) {
@@ -62,6 +62,10 @@ p {
 
 .tm-logo-text {
   font-size: 2rem;
+}
+.tm-logo img {
+  width: 100px;
+  height: 70px;
 }
 #parallax-1 {
   min-height: 690px;
