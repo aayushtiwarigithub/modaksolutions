@@ -3,6 +3,12 @@ body {
   font-size: 18px;
   overflow-x: hidden;
 }
+@media (max-width: 600px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
 
 a {
   transition: all 0.3s ease;
@@ -53,10 +59,28 @@ p {
   padding: 37px 0px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .tm-logo {
     left: 50%;
     margin-left: -200px;
+    display: none;
+  }
+}
+
+.extra-logo {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .extra-logo {
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .tm-extra-logo img {
+    height: 60px;
+    width: 100px;
   }
 }
 
@@ -1073,3 +1097,12 @@ select:not([multiple]) {
 /* #b_readmore2 {
   display: none;
 } */
+
+@media (max-width: 600px) {
+  .service-img {
+    display: contents;
+  }
+  .mail_your_cv {
+    margin-bottom: 85px;
+  }
+}
